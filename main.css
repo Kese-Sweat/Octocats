@@ -1,0 +1,94 @@
+.octodex{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 1424px;
+}
+.octocat a img{
+
+    width: 394px;
+    
+}
+
+.authors li a img{
+    width: 20px;
+    color: lightgray;
+    display: row;
+
+
+}
+.authors{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    color: lightgray;
+}
+
+
+.image-footer{
+    display: flex;
+    padding-top: 10px;
+    height: 10px;
+    padding-bottom: 10px;
+    border-bottom: red;
+}
+
+
+.image-caption  {
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding-left: 10px;
+    color: lightgray;
+}
+
+.octocat{
+
+    padding: 10px;
+    margin-right: 10px ;
+}
+
+ul {
+    list-style-type: none;
+   }
+
+   .border-style{
+
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgrey;
+    
+   }
+
+   a{
+
+    font-weight: bold;
+    color: black;
+   }
+
+   hr{
+       color: lightgray;
+       
+   }
+
+   
+
+.image-number{
+
+    height: 10px;
+    color: lightgray;
+}
+
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-top: 5px solid #f00;
+    flex-direction: column-reverse;
+  }
+
